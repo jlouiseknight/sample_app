@@ -4,6 +4,7 @@ gem 'rails', '3.2.8'
 gem 'jquery-rails'
 gem 'pg'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
@@ -22,6 +23,7 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'annotate'
 end
 
 group :test do
